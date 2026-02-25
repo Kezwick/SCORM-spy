@@ -18,7 +18,7 @@ javascript:(function(){
     // Заголовок с кнопками
     let header = document.createElement('div');
     header.style.cssText = 'display:flex; justify-content:space-between; align-items:center; margin-bottom:5px; border-bottom:1px solid #0f0; padding-bottom:3px;';
-    header.innerHTML = '<span style="font-weight:bold;">📡 SCORM Spy</span> <span style="display:flex; gap:5px;">' +
+    header.innerHTML = '<span style="font-weight:bold;">📡 SCORM Spy</span><span style="display:flex; gap:5px;">' +
       '<button id="scorm-clear" style="background:transparent; border:1px solid #0f0; color:#0f0; border-radius:4px; cursor:pointer; font-size:11px;">🗑️</button>' +
       '<button id="scorm-activity" style="background:transparent; border:1px solid #0f0; color:#0f0; border-radius:4px; cursor:pointer; font-size:11px;">🖱️ Активация</button>' +
       '<button id="scorm-hide" style="background:transparent; border:1px solid #0f0; color:#0f0; border-radius:4px; cursor:pointer; font-size:11px;">✖️</button>' +
