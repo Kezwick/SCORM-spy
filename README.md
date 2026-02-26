@@ -5,7 +5,7 @@
  
  Называешь SCORM Spy
  
- Вставляешь вместо URL ссылки эту малышку: javascript:(function(){let s=document.createElement('script');s.src='https://raw.githubusercontent.com/Kezwick/SCORM-spy/refs/heads/main/scorm-spy.js';document.body.appendChild(s);})();
+ Вставляешь вместо URL ссылки текст из файла в этом репозитории
 
  Открываешь закладку на странице с лекцией и кайфуешь (¬‿¬)
 
